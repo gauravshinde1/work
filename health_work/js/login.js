@@ -1,0 +1,10 @@
+$(function(){
+    $('#button1').click(function(){
+        $.load('www.facebook.com');
+    });
+});
+$(function(){
+    $('#button2').click(function(){
+        $.load('www.gmail.com');
+    });
+});
